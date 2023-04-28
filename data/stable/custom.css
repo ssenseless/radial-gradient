@@ -1,0 +1,13 @@
+<!-- js -->
+/**
+ * @name ExampleTheme
+ * @author YourName
+ * @description Describe the aesthetic. Maybe a support server link.
+ * @version 0.0.1
+ */
+
+<!-- css -->
+:root {
+  --my-size: 13px;
+  --my-color: #000000;
+}

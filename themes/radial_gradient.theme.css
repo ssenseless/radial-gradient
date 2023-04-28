@@ -1,0 +1,26 @@
+/**
+ * @name radial_gradient
+ * @author Carson Young
+ * @description Light styling the svg boxes with the gradients under the messages
+ * @version 0.0.1
+ */
+
+.radial-box-user {
+  position: absolute;
+  left: auto;
+  clear: right;
+  right: 6px;
+  top: -6px;
+}
+
+.radial-box-non-user {
+  position: absolute;
+  left: 6px;
+  right: auto;
+  top: -6px;
+}
+
+.user-radial {
+  stroke-width: 3;
+  fill: transparent;
+}
