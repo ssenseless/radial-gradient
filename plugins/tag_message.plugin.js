@@ -11,9 +11,9 @@
 const user_ids = {
   "987969601470087168": {
     id: 1,
-    stop1: "#feaC5e",
-    stop2: "#c779d0",
-    stop3: "#4bc0c8"
+    stop1: "#3bcfd4",
+    stop2: "#fc9305",
+    stop3: "#f20094"
   },
   "238775339533336576": {
     id: 2,
@@ -35,9 +35,9 @@ const user_ids = {
   },
   "748319318101721119": {
     id: 5,
-    stop1: "#feaC5e",
-    stop2: "#c779d0",
-    stop3: "#4bc0c8"
+    stop1: "#3a1c71",
+    stop2: "#d76d77",
+    stop3: "#ffaf7b"
   },
   "772132734374117398": {
     id: 6,
@@ -128,7 +128,6 @@ function make_user_gradients(message, userdata, is_main_user) {
       });
       var rect_grad = init_SVG("rect", {
         class: "user-rect",
-        height: 3,
         width: bounding_width - 55,
         y: 28,
         fill: "url(#gradient-user-rect-" + userdata.id + ")"
@@ -168,7 +167,6 @@ function make_user_gradients(message, userdata, is_main_user) {
       });
       var rect_grad = init_SVG("rect", {
         class: "user-rect",
-        height: 3,
         width: bounding_width - 55,
         x: 55,
         y: 28,
@@ -349,6 +347,7 @@ module.exports = (meta) => ({
       let buttons = document.querySelectorAll(
         ".toolbar-3_r2xA > .iconWrapper-2awDjA"
       );
+
       for (let i = 0; i < buttons.length; i++) {
         let id = "987969601470087168";
 
@@ -408,7 +407,6 @@ module.exports = (meta) => ({
       }
     }
 
-    //.buttons-uaqb-5->querySelector(svg)
     //primarily the same as above but for the message bar
     //icons don't change so we only need the three
     if (document.querySelector(".buttons-uaqb-5") !== null) {

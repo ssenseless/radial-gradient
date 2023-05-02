@@ -4,5 +4,7 @@
     "kaleidoscope": false,
     "RadialStatus": false,
     "radial gradient": true,
-    "flipflop": true
+    "flipflop": true,
+    "flip_flop": true,
+    "radial_gradient": true
 }

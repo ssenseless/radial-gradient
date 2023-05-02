@@ -21,6 +21,10 @@
 }
 
 .user-radial {
-  stroke-width: 3;
+  stroke-width: 2px;
   fill: transparent;
+}
+
+.user-rect {
+  height: 2px;
 }
